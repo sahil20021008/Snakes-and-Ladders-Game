@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="finalpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FinalController">
+   <children>
+      <ImageView fx:id="celebgif" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@celebrationgif.gif" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutY="69.0" text="CONGRATULATIONS" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="Brush Script MT Italic" size="50.0" />
+         </font></Label>
+      <Label layoutX="158.0" layoutY="192.0" text="WIN" textFill="#fdde15" AnchorPane.leftAnchor="158.0">
+         <font>
+            <Font name="Book Antiqua" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="467.0" layoutY="190.0" text="LOSE" textFill="#fdde15" AnchorPane.rightAnchor="158.0">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="user1" alignment="CENTER" layoutX="116.0" layoutY="239.0" prefHeight="34.0" prefWidth="133.0" text="Player 1">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="user2" alignment="CENTER" layoutX="349.0" layoutY="239.0" prefHeight="34.0" prefWidth="133.0" text="Player 1">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
